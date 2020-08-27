@@ -1,0 +1,17 @@
+{
+  "name": "dynamodb-backups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "handler:index": "node index.js",
+    "start": "npm run handler:index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.740.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0"
+  }
+}
